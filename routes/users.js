@@ -93,7 +93,7 @@ userRouter.post('/', (req, res) => {
 });
 
 /**
- * Summary. Function call to set up POST routing to path '/firstname/:firstname'.
+ * Summary. Function call to set up POST routing to path '/users/firstname/:firstname'.
  *
  * Description. This routing provides the ability for a client to obtain a particular user data.
  */
