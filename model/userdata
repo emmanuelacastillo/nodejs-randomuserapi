@@ -1,0 +1,30 @@
+/**
+ * Summary. Provides a class that represents user data.
+ *
+ * Description. This module provides the representation of a user.
+ *
+ * @file   model/userdata.js
+ * @author eman.
+ * @since  1.0.0
+ */
+
+class UserData {
+    /**
+     * Short description. Class used to represent a user.
+     *
+     * @member   {string} gender
+     * @member   {string} firstName
+     * @member   {string} city
+     * @member   {string} email
+     * @member   {string} cell
+     */
+    constructor(gender, firstName, city, email, cell) {
+        this.gender = gender;
+        this.firstName = firstName;
+        this.city = city;
+        this.email = email;
+        this.cell = cell;
+    }
+}
+
+module.exports = UserData;
