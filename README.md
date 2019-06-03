@@ -7,12 +7,17 @@ We want to make asynchronous requests from within our API to retrieve our data i
 Below are the details of the requirements and endpoints. Good luck!
 
 ### Requirements:
- 
-• Node version > 4.x
-• Express version 4.0.0
-• Asynchronous request module of your choice.
-• Asynchronous handling using either callacks, promises or async/await
-• Client of your choice to perform requests to your API (i.e. Postman etc).
+1. Node version > 4.x
+2. Express version 4
+3. Asynchronous request module of your choice.
+4. Asynchronous handling using either callacks, promises or async/await
+5. Client of your choice to perform requests to your API (i.e. Postman etc).
+
+Software Used:
+1. Nodejs 12.3.1
+2. Express 4.0.0
+3. Asynchronous request module - Axios
+5. Client - Postman
 
 ### Assumptions:
 1. https://randomuser.me/api will always be up.
