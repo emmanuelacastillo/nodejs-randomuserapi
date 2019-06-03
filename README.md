@@ -39,7 +39,7 @@ Directions:
 1. In the terminal, git clone https://github.com/emmanuelacastillo/nodejs-randomuserapi.git
 2. In the terminal, cd nodejs-randomuserapi
 3. In the terminal, npm install
-4. In the terminal, npm run
+4. In the terminal, node app.js
 
 ### Client:
 Required Software:
