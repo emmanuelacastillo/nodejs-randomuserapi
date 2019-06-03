@@ -28,6 +28,7 @@ Software Used:
 6. Application server will never run out of memory.
 7. Application server will never run into a system error.
 8. GET /user/firstname/:firstname will only return 1 data.
+9. POST /user/ will always provide a new user.
 
 ### Running Application
 Required Software:
