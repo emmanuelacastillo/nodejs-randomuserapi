@@ -95,7 +95,7 @@ userRouter.post('/', (req, res) => {
 /**
  * Summary. Function call to set up POST routing to path '/firstname/:firstname'.
  *
- * Description. This routing puts the request body's data into USER_DB.
+ * Description. This routing provides the ability for a client to obtain a particular user data.
  */
 userRouter.get('/firstname/:firstname', (req, res) => {
     const data = USER_DB.getUser(req.params.firstname);
