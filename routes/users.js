@@ -100,7 +100,7 @@ userRouter.post('/', (req, res) => {
 userRouter.get('/firstname/:firstname', (req, res) => {
     const data = USER_DB.getUser(req.params.firstname);
     if (data) {
-        res.status(404);
+        res.status(200);
         res.send(data)
     } else {
         res.status(404);
